@@ -30,9 +30,7 @@ alter table b_blog change blog_public_time blog_public_time datetime not null de
 create table b_user(
 	user_id int(10) not null primary key auto_increment,
 	user_name char(20) not null,
-	user_password char(20) not null,
-	...
-	
+	user_password char(20) not null
 );
 
 
@@ -47,7 +45,7 @@ create table b_blog(
 /* 页面上传文件至服务器，并将引用路径存放在数据表中 */
 create table b_imge(
 	img_id int(10) not null primary key auto_increment,
-	img_url chart(30) not null,
+	img_url char(30) not null,
 	img_event_id int(10) 
 );
 
@@ -59,7 +57,7 @@ create table b_resume(
 	resume_desc char(50),
 	resume_hobby char(100),
 	resume_experience_id int(10) not null
-)
+);
 
 /* 简历明细 */
 create table b_resume_list(

@@ -1,0 +1,51 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    color: #333333;
+}
+
+
+/* 公共头尾 */
+.common_head{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #BAD1D1;
+    background-color: #BAD1D1;
+}
+.common_head .contain{
+    width: 960px;
+    margin: 0 auto;
+}
+.common_head .contain .user_info_wrap{
+    float: left;
+}
+.common_head .contain .user_info_wrap .at{
+    float: left;
+}
+.common_head .contain .user_login_wrap{
+    float: right;
+}
+.common_head .contain .user_login_wrap span{
+    cursor: pointer;
+}
+.common_head .contain .user_login_wrap span.login{
+    color: #FF0000;
+}
+.common_head .contain .user_login_wrap span.register{
+    color: #FF0000;
+}
+
+.common_tail{
+    height: 40px;
+    line-height: 40px;
+    background-color: #647277;
+}
+.common_tail .contain{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    color: #dfdfdf;
+}

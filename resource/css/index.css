@@ -1,0 +1,74 @@
+.main{
+    min-height: 915px;
+    background-color: #F3ECD9;
+    margin: 0 auto;
+}
+.main .contain{
+    width: 960px;
+    min-height: 915px;
+    border: 1px solid #BAD1D1;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+/*广告-start*/
+.main .ad_l{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #BAD1D1;
+    left: -205px;
+    top: 0;
+}
+.main .ad_r{
+    position: absolute;
+    width: 200px;
+    height: 450px;
+    border: 1px solid #BAD1D1;
+    right: -205px;
+    top: 0;
+}
+/*广告 -end*/
+.main .contain .img_t{
+    margin: 20px 15px;
+    height: 300px;
+    width: 930px;
+    border: 1px solid #BAD1D1;
+}
+.main .contain .img_t img{
+    height: 300px;
+    margin: 0 auto;
+}
+.main .contain .li_c{
+    padding-bottom: 20px;
+}
+.main .contain .li_c ul{
+    margin: 0 15px;
+    padding: 0;
+}
+.main .contain .li_c ul li{
+    list-style: none;
+    border: 1px solid #BAD1D1;
+    margin-top: 10px;
+    height: 80px;
+}
+.main .contain .li_c ul li img{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.main .contain .li_c ul li a{
+    height: 30px;
+    line-height: 30px;
+    width: 830px;
+    padding-left: 10px;
+}
+.main .contain .li_c ul li p{
+    display: block;
+    float: left;
+    height: 40px;
+    width: 830px;
+    margin: 0;
+    padding-left: 10px;
+    overflow: hidden;
+}
