@@ -28,17 +28,17 @@ a{
 .common_head .contain .user_info_wrap .at{
     float: left;
 }
+.common_head .contain .user_info_wrap .home:hover{
+    color: #FF0000;
+    cursor: pointer;
+}
 .common_head .contain .user_login_wrap{
     float: right;
 }
-.common_head .contain .user_login_wrap span{
+.common_head .contain .user_login_wrap span.login:hover,
+.common_head .contain .user_login_wrap span.register:hover{
+    color: #FF0000;
     cursor: pointer;
-}
-.common_head .contain .user_login_wrap span.login{
-    color: #FF0000;
-}
-.common_head .contain .user_login_wrap span.register{
-    color: #FF0000;
 }
 
 .common_tail{
