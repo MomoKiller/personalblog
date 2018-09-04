@@ -4,10 +4,13 @@ html,body{
     font-family: 'Microsoft Yahei';
     font-size: 14px;
     color: #333333;
+    background-color: #F3ECD9;
 }
-
-
-/* 公共头尾 */
+a{
+    text-decoration: none;
+    color: #333333;
+}
+/* 公共头尾 -start*/
 .common_head{
     height: 30px;
     line-height: 30px;
@@ -49,3 +52,38 @@ html,body{
     text-align: center;
     color: #dfdfdf;
 }
+/* 公共头尾 -end*/
+
+.main{
+    min-height: 915px;
+    background-color: #F3ECD9;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .contain{
+    width: 960px;
+    min-height: 915px;
+    /* border: 1px solid #BAD1D1; */
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+/*广告-start*/
+.main .ad_l{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #BAD1D1;
+    left: -210px;
+    top: 0;
+}
+.main .ad_r{
+    position: absolute;
+    width: 200px;
+    height: 450px;
+    border: 1px solid #BAD1D1;
+    right: -210px;
+    top: 0;
+}
+/*广告 -end*/
